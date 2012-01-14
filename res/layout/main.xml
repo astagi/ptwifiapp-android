@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center"
+	android:background="#FFFFFF">
+	<ImageView android:id="@+id/logo_img" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:src="@drawable/ptlogo" />
+
+	<EditText android:id="@+id/usr_name" android:layout_width="250dip"
+		android:layout_height="wrap_content" android:layout_weight="1.0"
+		android:lines="1" android:hint="@string/txt_user" android:inputType="textUri"
+		android:imeOptions="actionGo" android:layout_gravity="center" />
+	<EditText android:id="@+id/usr_psw" android:layout_width="250dip"
+		android:layout_height="wrap_content" android:layout_weight="1.0"
+		android:lines="1" android:hint="@string/txt_psw" android:inputType="textUri"
+		android:password="true" android:imeOptions="actionGo"
+		android:layout_gravity="center" />
+
+
+	<CheckBox android:id="@+id/chk_remember" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:checked="true"
+		android:text="@string/chk_remember" android:textColor="#000000" />
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:layout_marginTop="10dip">
+
+		<Button android:id="@+id/login_button" android:layout_width="80dip"
+			android:layout_height="wrap_content" android:text="@string/btn_login" />
+
+		<Button android:id="@+id/newusr_button" android:layout_width="80dip"
+			android:layout_height="wrap_content" android:text="@string/btn_new" />
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:layout_marginBottom="0dip" android:background="@drawable/mapback">
+
+		<ImageButton android:id="@+id/map_button"
+			android:layout_width="50dip" android:layout_height="50dip"
+			android:text="@string/btn_new" android:layout_marginTop="3dip"
+			android:src="@android:drawable/ic_menu_mapmode" />
+
+		<TextView android:id="@+id/wip" android:text="@string/mappa"
+			android:textSize="14sp" android:textStyle="bold" android:textColor="#FFFF00"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="0" android:layout_marginLeft="10dip"
+			android:layout_marginTop="15dip" />
+
+	</LinearLayout>
+</LinearLayout>

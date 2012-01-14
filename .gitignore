@@ -1,0 +1,6 @@
+.classpath
+.project
+.hgignore
+assets/
+bin/
+.hg/

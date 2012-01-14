@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pistoia Wireless Auth</string>
+    <string name="app_name_main">Pistoia Wireless Auth</string>
+    <string name="app_name_map">Pistoia Wireless Auth - Mappa</string>
+    <string name="app_name_newuser">Pistoia Wireless Auth - Nuovo utente</string>
+    <string name="app_name_useractivity">Pistoia Wireless Auth - Sei loggato!</string>
+    
+    <string name="btn_new">Nuovo</string>
+    <string name="btn_login">Login</string>
+    <string name="chk_remember">Ricordami</string>
+    <string name="txt_user">Username</string>
+    <string name="txt_psw">Password</string>
+    
+    <string name="txt_psw_again">Ripeti password</string>
+    <string name="txt_mail">Mail</string>
+    <string name="txt_mail_again">Ripeti mail</string>
+    
+    <string name="menu_navigate">Naviga</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_map">Hotspots</string>
+    <string name="menu_about">Crediti</string>
+    <string name="menu_exit">Esci</string>
+    
+    <string name="mappa">Dai un\' occhiata alla mappa!</string>
+    
+    <string name="wel_title">Benvenuto!</string>
+    <string name="wel_message">
+    Il seguente software è free ed è costruito usando interamente free software.
+    E\' sviluppato da volontari nel tempo libero, non abbiate fretta :) Verrano rilasciati
+    aggiornamenti sul market quando sarà possibile. Per qualsiasi problema, contattaci su info@ptlug.org
+    </string>
+    <string name="wel_btn">Continua</string>
+    
+    <string name="map_title">Hotspots</string>
+    <string name="map_message">
+    Spiacente, questa funzione non è presente nella versione beta. 
+    Verrà implentata in futuri aggiornamenti.
+    </string>
+    <string name="map_btn">Chiudi</string>
+    
+    <string name="about_title">Crediti</string>
+    <string name="about_message">
+    Pistoia Wireless Auth per dispositivi Android permette di effettuare
+    un veloce login al servizio di wireless libera presente nella città di 
+    Pistoia.
+    Il seguente software è rilasciato sotto licenza GPL3.
+    Il software è stato sviluppato da: Andrea Stagi (stagi.andrea@gmail.com)
+    Per qualsiasi problema, contattaci su info@ptlug.org.
+	</string>
+    <string name="about_btn">Chiudi</string>
+    
+    <string name="login_fail">Login fallito</string>
+    <string name="login_progress">Attendere prego</string>
+    
+    <string name="connected_to">Connesso a </string>
+    
+    
+</resources>

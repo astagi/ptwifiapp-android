@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/navigate" android:title="@string/menu_navigate"
+		android:icon="@android:drawable/ic_menu_directions" />
+	<item android:id="@+id/map" android:title="@string/menu_map"
+		android:icon="@android:drawable/ic_menu_mapmode" />
+	<item android:id="@+id/about" android:title="@string/menu_about"
+		android:icon="@android:drawable/ic_menu_info_details" />
+	<item android:id="@+id/logout" android:title="@string/menu_logout"
+		android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+	<item android:id="@+id/exit" android:title="@string/menu_exit"
+		android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+</menu>
