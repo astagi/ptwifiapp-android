@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="org.ptlug.ptwifiauth" android:versionCode="8"
+	package="org.ptlug.ptwifiauth" android:versionCode="9"
 	android:versionName="1.0" android:installLocation="auto">
 
 	<uses-sdk android:minSdkVersion="8" />
